@@ -1,9 +1,16 @@
 import './App.css';
 import React from 'react'
+import Header from "./Header"
+import TinderCards from './TinderCards'
+import SwipeButtons from './SwipeButtons'
+
 function App() {
   return (
     <div className="App">
-     <h1>Lets build the mern tinder</h1>
+    
+    <Header      />
+    <TinderCards />
+    <SwipeButtons />
     </div>
   );
 }
